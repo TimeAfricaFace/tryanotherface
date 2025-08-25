@@ -1,4 +1,6 @@
-file_0000000041dc622fa32d47b22a2f0a20.png# TAF – Try Another Face 🌍🔥💧🌬️🌱
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TimeAfricaFace/tryanotherface/main/file_0000000041dc622fa32d47b22a2f0a20.png" alt="TAF Banner" width="100%">
+</p># TAF – Try Another Face 🌍🔥💧🌬️🌱
 
 **Awaken the World. Awaken Yourself.**
 
