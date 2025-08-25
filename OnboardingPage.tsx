@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import CinematicIntro from './CinematicIntro';
 import ElementSelection from './ElementSelection';
 import AuthForm from './AuthForm';             // ✅ fix path
-import supabase from './supabase';              // ✅ if default export; otherwise: import { supabase } from './supabase'
+import supabase from '../lib/supabase';              // ✅ if default export; otherwise: import { supabase } from './supabase'
 import { useAuthContext } from './AuthContext'; // ✅ fix path
 import type { Element } from './types';         // ✅ fix path
 type OnboardingStep = 'intro' | 'auth' | 'element' | 'complete';
