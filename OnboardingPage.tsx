@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import CinematicIntro from './CinematicIntro';
-import { ElementSelection } from '../components/onboarding/ElementSelection';
+import ElementSelection from './ElementSelection';
 import { AuthForm } from '../components/auth/AuthForm';
 import { supabase } from '../lib/supabase';
 import { useAuthContext } from '../contexts/AuthContext';
