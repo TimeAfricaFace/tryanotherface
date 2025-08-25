@@ -225,3 +225,4 @@ export const FeedPage: React.FC = () => {
     </div>
   );
 };
+export default FeedPage;
