@@ -171,3 +171,4 @@ export const CinematicIntro: React.FC<CinematicIntroProps> = ({ onComplete, onSk
     </div>
   );
 };
+export default CinematicIntro;
