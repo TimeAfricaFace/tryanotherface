@@ -177,3 +177,4 @@ export const ElementSelection: React.FC<ElementSelectionProps> = ({ onSelect }) 
     </div>
   );
 };
+export default ElementSelection;
