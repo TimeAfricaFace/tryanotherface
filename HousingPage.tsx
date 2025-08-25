@@ -278,3 +278,4 @@ export const HousingPage: React.FC = () => {
     </div>
   );
 };
+export default HousingPage;
