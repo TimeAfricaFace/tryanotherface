@@ -71,3 +71,5 @@ export const OnboardingPage: React.FC = () => {
 
   return null;
 };
+
+export default OnboardingPage;
