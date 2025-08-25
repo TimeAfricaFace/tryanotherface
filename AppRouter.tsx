@@ -1,15 +1,17 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import { Layout } from '../components/layout/Layout';
-import { OnboardingPage } from '../pages/OnboardingPage';
-import { FeedPage } from '../pages/FeedPage';
-import { ProfilePage } from '../pages/ProfilePage';
-import { JobsPage } from '../pages/JobsPage';
-import { HousingPage } from '../pages/HousingPage';
-import { MarketplacePage } from '../pages/MarketplacePage';
-import { SettingsPage } from '../pages/SettingsPage';
-import { useAuthContext } from '../contexts/AuthContext';
 
+import Layout from './Layout';
+
+import OnboardingPage from './OnboardingPage';
+import FeedPage from './FeedPage';
+import ProfilePage from './ProfilePage';
+import JobsPage from './JobsPage';
+import HousingPage from './HousingPage';
+import MarketplacePage from './MarketplacePage';
+import SettingsPage from './SettingsPage';
+
+import { useAuthContext } from './AuthContext';
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user, profile, loading } = useAuthContext();
 
