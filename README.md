@@ -27,7 +27,7 @@ Our current focus: **MVP development + community landing site** deployed via Net
 ## 📫 Contact
 - 🌐 Website: [tryanotherface.com](https://tryanotherface.com)  
 - 🌐 App Domain: [tafapp.org](https://tafapp.org)  
-- 📧 Email: info@tryanotherface.com.  
+- 📧 Email: info@tryanotherface.com  
 
 ---
 
