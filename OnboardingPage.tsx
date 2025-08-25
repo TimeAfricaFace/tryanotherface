@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { CinematicIntro } from '../components/onboarding/CinematicIntro';
+import CinematicIntro from './CinematicIntro';
 import { ElementSelection } from '../components/onboarding/ElementSelection';
 import { AuthForm } from '../components/auth/AuthForm';
 import { supabase } from '../lib/supabase';
