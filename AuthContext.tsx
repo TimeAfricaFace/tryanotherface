@@ -28,6 +28,8 @@ export const useAuthContext = () => {
   }
   return context;
 };
+  return context;
+};
 }; AuthContext.tsx
 import React, { createContext, useContext, useState } from "react";
 
