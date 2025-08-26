@@ -5,11 +5,11 @@ import CinematicIntro from './CinematicIntro';
 import ElementSelection from './ElementSelection';
 
 // ⬇️ AuthForm is under src/components/auth (or Auth). Use the actual case from your repo.
-import AuthForm from './src/components/auth/AuthForm';
+import AuthForm from './components/auth/AuthForm';
 
-import { supabase } from './src/lib/supabase';
-import { useAuthContext } from './src/contexts/AuthContext';
-import type { Element } from './src/types';
+import { supabase } from './lib/supabase';
+import { useAuthContext } from './contexts/AuthContext';
+import type { Element } from './types';
 
 export const OnboardingPage: React.FC = () => {
   const [step, setStep] = useState<OnboardingStep>('intro');
