@@ -1,12 +1,15 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+
 import CinematicIntro from './CinematicIntro';
 import ElementSelection from './ElementSelection';
-import AuthForm from './components/Auth/AuthForm';
+
+// ⬇️ AuthForm is under src/components/auth (or Auth). Use the actual case from your repo.
+import AuthForm from './src/components/auth/AuthForm';
+
 import { supabase } from './src/lib/supabase';
-import { useAuthContext } from './contexts/AuthContext';
-import type { Element } from './types';
-type OnboardingStep = 'intro' | 'auth' | 'element' | 'complete';
+import { useAuthContext } from './src/contexts/AuthContext';
+import type { Element } from './src/types';
 
 export const OnboardingPage: React.FC = () => {
   const [step, setStep] = useState<OnboardingStep>('intro');
