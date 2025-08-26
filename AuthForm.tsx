@@ -4,8 +4,8 @@ import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { supabase } from './src/lib/supabase';
-import { Button } from '../ui/Button';
-import { Input } from '../ui/Input';
+import { Button } from './ui/Button';
+import { Input } from './ui/Input';
 
 const signUpSchema = yup.object({
   email: yup.string().email('Invalid email').required('Email is required'),
