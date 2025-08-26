@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Edit2, MapPin, Calendar, Award } from 'lucide-react';
-import { Card } from '../components/ui/Card';
-import { Button } from '../components/ui/Button';
-import { useAuthContext } from '../contexts/AuthContext';
-import { supabase } from '../lib/supabase';
-import { getElementWisdom } from '../theme/elements';
-import type { Reflection, Skill } from '../types';
+import { Card } from './components/ui/Card';
+import { Button } from './components/ui/Button';
+import { useAuthContext } from './contexts/AuthContext';
+import { supabase } from './lib/supabase';
+import { getElementWisdom } from './theme/elements';
+import type { Reflection, Skill } from './types';
 
 export const ProfilePage: React.FC = () => {
   const { profile } = useAuthContext();
