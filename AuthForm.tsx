@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '../supabase';
 import { Button } from '../ui/Button';
 import { Input } from '../ui/Input';
 
