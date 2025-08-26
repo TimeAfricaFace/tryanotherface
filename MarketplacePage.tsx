@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ShoppingBag, Star, DollarSign, Plus, Search, Heart } from 'lucide-react';
+import { ShoppingBag, Star, DollarSign, Clock, Plus, Search, Heart } from 'lucide-react';
+
 import { Card } from './components/ui/Card';
 import { Button } from './components/ui/Button';
 import { Input } from './components/ui/Input';
 import { Modal } from './components/ui/Modal';
-import { useAuthContext } from './contexts/AuthContext';
 
+import { useAuthContext } from './contexts/AuthContext';
 interface MarketplaceItem {
   id: string;
   seller_id: string;
