@@ -1,9 +1,9 @@
-import { Card } from './src/components/ui/Card';
-import { Button } from './src/components/ui/Button';
-import { Input } from './src/components/ui/Input';
-import { Modal } from './src/components/ui/Modal';
-import { useAuthContext } from './src/contexts/AuthContext';
-import type { HousingListing } from './src/types';
+import { Card } from './components/ui/Card';
+import { Button } from './components/ui/Button';
+import { Input } from './components/ui/Input';
+import { Modal } from './components/ui/Modal';
+import { useAuthContext } from './contexts/AuthContext';
+import type { HousingListing } from './types';
 const sampleListings: HousingListing[] = [
   {
     id: 'house-1',
