@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { User, Bell, Shield, Palette, Download, Trash2, Save } from 'lucide-react';
-import { Card } from '../components/ui/Card';
-import { Button } from '../components/ui/Button';
-import { Input } from '../components/ui/Input';
-import { useAuthContext } from '../contexts/AuthContext';
+import { Card } from './components/ui/Card';
+import { Button } from './components/ui/Button';
+import { Input } from './components/ui/Input';
+import { useAuthContext } from './contexts/AuthContext';
 
 export const SettingsPage: React.FC = () => {
   const { profile, signOut } = useAuthContext();
