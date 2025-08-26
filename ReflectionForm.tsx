@@ -7,7 +7,7 @@ import { Image, Video, Mic, X } from 'lucide-react';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { useAuthContext } from '../../contexts/AuthContext';
-import { supabase } from '../supabase';
+import { supabase } from '../lib/supabase';
 import { getElementWisdom } from '../../theme/elements';
 import type { Element } from '../../types';
 
