@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Filter, Plus } from 'lucide-react';
 import { ReflectionCard } from '../components/reflections/ReflectionCard';
-import { ReflectionForm } from '../components/reflections/ReflectionForm';
+import ReflectionForm from '../ReflectionForm';
 import { Button } from '../components/ui/Button';
 import { Modal } from '../components/ui/Modal';
 import { Card } from '../components/ui/Card';
