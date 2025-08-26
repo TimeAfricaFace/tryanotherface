@@ -7,7 +7,7 @@ import { Image, Video, Mic, X } from 'lucide-react';
 import { Card } from '../ui/Card';
 import { Button } from '../ui/Button';
 import { useAuthContext } from '../../contexts/AuthContext';
-import { supabase } from '../../lib/supabase';
+import { supabase } from '../supabase';
 import { getElementWisdom } from '../../theme/elements';
 import type { Element } from '../../types';
 
@@ -238,3 +238,4 @@ export const ReflectionForm: React.FC<ReflectionFormProps> = ({ onSuccess }) => 
     </Card>
   );
 };
+export default ReflectionForm;
