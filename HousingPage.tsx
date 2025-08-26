@@ -1,7 +1,12 @@
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { Home, MapPin, DollarSign, Calendar, Plus, Search, Filter } from 'lucide-react';
+
 import { Card } from './components/ui/Card';
 import { Button } from './components/ui/Button';
 import { Input } from './components/ui/Input';
 import { Modal } from './components/ui/Modal';
+
 import { useAuthContext } from './contexts/AuthContext';
 import type { HousingListing } from './types';
 const sampleListings: HousingListing[] = [
