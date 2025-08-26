@@ -4,7 +4,7 @@ import { Edit2, MapPin, Calendar, Award } from 'lucide-react';
 import { Card } from './components/ui/Card';
 import { Button } from './components/ui/Button';
 import { useAuthContext } from './contexts/AuthContext';
-import { supabase } from './lib/supabase';
+import { supabase } from './src/lib/supabase';
 import { getElementWisdom } from './theme/elements';
 import type { Reflection, Skill } from './types';
 
