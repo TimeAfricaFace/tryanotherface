@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Briefcase, MapPin, DollarSign, Clock, Plus, Search } from 'lucide-react';
+
 import { Card } from './components/ui/Card';
 import { Button } from './components/ui/Button';
 import { Input } from './components/ui/Input';
 import { Modal } from './components/ui/Modal';
-import { useAuthContext } from './src/contexts/AuthContext';
+
+import { useAuthContext } from './contexts/AuthContext';
 import type { Job } from './types';
 
 const sampleJobs: Job[] = [
