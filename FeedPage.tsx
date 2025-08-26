@@ -6,7 +6,7 @@ import ReflectionForm from '../ReflectionForm';
 import { Button } from '../components/ui/Button';
 import { Modal } from '../components/ui/Modal';
 import { Card } from '../components/ui/Card';
-import { supabase } from '../lib/supabase';
+import { supabase } from './src/lib/supabase';
 import { useAuthContext } from '../contexts/AuthContext';
 import type { Reflection, Element } from '../types';
 
