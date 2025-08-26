@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import CinematicIntro from './CinematicIntro';
 import ElementSelection from './ElementSelection';
-import AuthForm from './components/auth/AuthForm';
+import AuthForm from './components/Auth/AuthForm';
 import { supabase } from './src/lib/supabase';
 import { useAuthContext } from './contexts/AuthContext';
 import type { Element } from './types';
