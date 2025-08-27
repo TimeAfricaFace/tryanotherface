@@ -123,3 +123,4 @@ export const AppRouter: React.FC = () => {
     </Router>
   );
 };
+export default AppRouter;
