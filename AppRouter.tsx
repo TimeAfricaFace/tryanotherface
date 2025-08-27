@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 
 import Layout from './Layout';
 
-import OnboardingPage from './OnboardingPage';
+import OnboardingPage from './pages/OnboardingPage';
 import FeedPage from './FeedPage';
 import ProfilePage from './ProfilePage';
 import JobsPage from './JobsPage';
