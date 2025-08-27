@@ -6,10 +6,10 @@ import CinematicIntro from './CinematicIntro';
 import ElementSelection from './ElementSelection';
 
 // these must point into src/
-import AuthForm from './src/components/auth/AuthForm';
-import { supabase } from './src/lib/supabase';
-import { useAuthContext } from './src/contexts/AuthContext';
-import type { Element } from './src/types';
+import AuthForm from './components/auth/AuthForm';
+import { supabase } from './lib/supabase';
+import { useAuthContext } from './contexts/AuthContext';
+import type { Element } from './types';
 
 export const OnboardingPage: React.FC = () => {
   const [step, setStep] = useState<OnboardingStep>('intro');
