@@ -1,8 +1,8 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 
-// 👇 point to /src
-import AppRouter from "./src/AppRouter";
+// ✅ no need for "./src", just point directly
+import AppRouter from "./AppRouter";
 import { AuthProvider } from "./contexts/AuthContext";
 
 createRoot(document.getElementById("root")!).render(
