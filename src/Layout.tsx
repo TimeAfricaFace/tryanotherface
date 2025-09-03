@@ -1,15 +1,16 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import { Navigation } from './Navigation';
-import { useAuthContext, AuthProvider } from './AuthContext';
+// src/Layout.tsx
+import React from "react";
+import { Outlet } from "react-router-dom";
+import Navigation from "./Navigation";
+import { useAuthContext } from "./contexts/AuthContext"; // ← correct path
 
-export const Layout: React.FC = () => {
+const Layout: React.FC = () => {
   const { user, loading } = useAuthContext();
 
   if (loading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-blue-900 flex items-center justify-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white" />
       </div>
     );
   }
@@ -17,10 +18,11 @@ export const Layout: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-blue-900">
       {user && <Navigation />}
-      <main className={user ? 'pt-16' : ''}>
+      <main className={user ? "pt-16" : ""}>
         <Outlet />
       </main>
     </div>
   );
 };
+
 export default Layout;
