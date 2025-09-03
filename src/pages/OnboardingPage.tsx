@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-// keep these if CinematicIntro & ElementSelection are in the same folder as OnboardingPage.tsx
-import CinematicIntro from './CinematicIntro';
-import ElementSelection from './ElementSelection';
+// point to components folder
+import CinematicIntro from '../components/onboarding/CinematicIntro';
+import ElementSelection from '../components/onboarding/ElementSelection';
 
-// these must point into src/
+// point into src/
 import AuthForm from '../components/auth/AuthForm';
 import { supabase } from '../lib/supabase';
 import { useAuthContext } from '../contexts/AuthContext';
 import type { Element } from '../types';
-
 export const OnboardingPage: React.FC = () => {
   const [step, setStep] = useState<OnboardingStep>('intro');
   const [selectedElement, setSelectedElement] = useState<Element | null>(null);
