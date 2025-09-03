@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { Navigation } from './Navigation';
-import { useAuthContext, AuthProvider } from './AuthContext';
+import { Navigation } from '../Navigation';
+import { useAuthContext, AuthProvider } from '../AuthContext';
 
 export const Layout: React.FC = () => {
   const { user, loading } = useAuthContext();
