@@ -8,7 +8,7 @@ import HousingPage      from './pages/HousingPage';
 import MarketplacePage  from './pages/MarketplacePage';
 import SettingsPage     from './pages/SettingsPage';
 
-import { useAuthContext } from './contexts/AuthContext';
+import { useAuthContext } from "./contexts/AuthContext";
 const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { user, profile, loading } = useAuthContext();
 
