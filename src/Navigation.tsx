@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Home, User, Briefcase, MapPin, ShoppingBag, Settings, LogOut } from 'lucide-react';
-import { useAuthContext } from '../../contexts/AuthContext';
+import { useAuthContext } from "./contexts/AuthContext";
 import { getElementStyles } from '../../theme/colors';
 
 const navItems = [
