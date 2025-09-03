@@ -1,4 +1,4 @@
-import Layout from './Layout';
+import Layout from '../Layout';
 
 import OnboardingPage   from './pages/OnboardingPage';
 import FeedPage         from './pages/FeedPage';
